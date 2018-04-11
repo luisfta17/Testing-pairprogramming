@@ -49,6 +49,8 @@ end
 
 def number_to_short_month_name(month_num)
   number_to_full_month_name(month_num)[0..2]
+  # opcion 2
+  #number_to_full_month_name(month_num).slice(0,3)
 end
 
 def volume_of_cube(side_length)
